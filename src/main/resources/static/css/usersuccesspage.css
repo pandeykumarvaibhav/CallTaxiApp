@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+  height : 100vh;
+ }
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	color : #03e9f4;
+}
+
+.userinfo{
+	width : 40%;
+    position : absolute;
+    left : 32%;
+    top : 15%;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    color: #03e9f4;
+    padding : 20px;
+}
+
+ .userinfo div{
+   padding : 10px;
+	margin-top : 5px;
+}
+
+#book{
+	color : black;
+	background : #03e9f4;
+	padding : 10px;
+	font-size : 16px;
+	position : absolute;	
+	top : 35%;
+	left : 0;
+	font-weight: 900;
+	width : 32%;
+	
+}
+
+#mybooking{
+	color : black;
+	background : #03e9f4;
+	padding : 10px;
+	font-size : 16px;
+	position : absolute;	
+    right : 0;
+	top : 35%;
+	font-weight: 900;
+	width : 28%;
+}
+
+#mybooking:hover{
+	color : #03e9f4;
+	background : black;
+}
+
+#book:hover{
+	color : #03e9f4;
+	background : black;
+}
+
+#home{
+	position : absolute;
+	top : 80%;
+	left : 32%;
+	text-decoration: none;
+	background : white;
+	color : black;
+	padding : 8px;
+	width : 15%;
+	font-weight: 900;
+	text-align: center;
+	
+}
+
+#logout{
+	position : absolute;
+	top : 80%;
+	left : 57%;
+	text-decoration: none;
+	background : white;
+	color : black;
+	padding : 8px;
+	width : 15%;
+	font-weight: 900;
+	text-align: center;
+}
+
+#logout:hover{
+	background: black;
+	color :  #03e9f4;
+	
+}
+
+#home:hover{
+		background: black;
+	color :  #03e9f4;
+}

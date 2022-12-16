@@ -1,0 +1,4 @@
+ 
+ function myFun(){
+	 alert("hai");
+ }
